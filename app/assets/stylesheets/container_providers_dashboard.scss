@@ -79,12 +79,23 @@
     opacity: 1;
 }
 
-.provider-card .provider-icon-small {
-  font-size: 100px;
-  position: relative;
-  text-align: left;
-  display: inline-block;
-  height: 26px;
+.provider-status-card {
+    min-height: 132px;
+
+    .card-pf-title {
+      margin-top: 25px;
+    }
+
+    .provider-icon-small {
+        height: 24px;
+
+        &:last-of-type {
+          display: block;
+          margin-top: 35px;
+          text-align: center;
+          width: 100%;
+        }
+    }
 }
 
 .provider-card .provider-icon-large {
